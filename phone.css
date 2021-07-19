@@ -1,0 +1,91 @@
+/* navbar  */
+
+#navbar {
+    flex-direction: column;
+    position: sticky;
+}
+
+#navbar ul li a {
+    font-size: 1.2rem;
+    padding: 0px 8px;
+}
+
+
+/* services */
+
+#services div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* creations */
+
+#creationdisplay {
+    display: block;
+    /* width: 100%;
+    justify-content: center;
+    align-items: center; */
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    width: 150%;
+    height: 100%;
+}
+
+.top img {
+    width: 45%;
+    height: auto;
+}
+
+.left,
+.bottom {
+    display: none;
+    width: 0%;
+    height: 0%;
+}
+
+.abyss {
+    display: none;
+}
+
+
+/* contact */
+
+#order img {
+    width: 150px;
+    height: 150px;
+}
+
+.btn {
+    font-size: 0.8rem;
+    padding: 5px 9px;
+}
+
+
+/* general use */
+
+.h-primary {
+    font-size: 2.4rem;
+}
+
+.h-secondary {
+    font-size: 1.6rem;
+}
+
+p {
+    font-size: 0.7rem;
+    font-family: 'Crimson Text', serif;
+}
+
+@media(max-width:280px) {
+    .h-primary {
+        font-size: 2rem;
+    }
+    p {
+        font-size: 0.5rem;
+        font-family: 'Crimson Text', serif;
+    }
+}
